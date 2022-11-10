@@ -1,0 +1,135 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33C948A8-4D74-4AAA-A80A-01ACB9AB2DD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{AF1A93D2-745A-4AED-AD9F-FC007042F019}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2CD70AF4-0660-4BAB-B878-49F3B7447507}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{44D57F21-B197-4E93-89C8-BF014611F691}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{42CE93F1-E9DB-4DA8-B07A-21E0A8F7F012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8D0B200A-0629-42F4-BCB1-74B35BCABA19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2A859C44-6467-4515-AF55-1CD657951706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{54F1FF41-56CC-46AF-93F5-BCA89FEFDBC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.BUS.Applications.WebApp", "src\Hosting\Ofgem.API.BUS.Applications.WebApp\Ofgem.API.BUS.Applications.WebApp.csproj", "{CB1A49C8-3944-41ED-9FEF-12F6B8AD77AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.BUS.Applications.Domain", "src\Domain\Ofgem.API.BUS.Applications.Domain\Ofgem.API.BUS.Applications.Domain.csproj", "{C800FE6A-103C-40C9-AE5B-94C5A51C4201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.BUS.Applications.Api", "src\Service\Ofgem.API.BUS.Applications.Api\Ofgem.API.BUS.Applications.Api.csproj", "{DC4FDE0A-FAF4-4E10-A390-007D7295104A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.BUS.Applications.Providers.DataAccess", "src\Providers\Ofgem.API.BUS.Applications.Providers.DataAccess\Ofgem.API.BUS.Applications.Providers.DataAccess.csproj", "{875CC75D-718B-42FB-A330-8B839AF1CD0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.BUS.Applications.Core", "src\Service\Ofgem.API.BUS.Applications.Core\Ofgem.API.BUS.Applications.Core.csproj", "{731F8A04-58AA-4E89-975D-B4114F878A51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.BUS.Applications.Api.UnitTests", "tests\Service\Ofgem.API.BUS.Applications.Api.UnitTests\Ofgem.API.BUS.Applications.Api.UnitTests.csproj", "{8B3043A1-A90C-429E-A494-7F66BA74FB40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.BUS.Applications.Core.UnitTests", "tests\Service\Ofgem.API.BUS.Applications.Core.UnitTests\Ofgem.API.BUS.Applications.Core.UnitTests.csproj", "{F7618EE9-4099-4C31-B6FF-DBCADD808E99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.BUS.Applications.Domain.UnitTests", "tests\Domain\Ofgem.API.BUS.Applications.Domain.UnitTests\Ofgem.API.BUS.Applications.Domain.UnitTests.csproj", "{6581A792-AB08-408C-9B8B-9622716E8C0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "DatabaseScripts", "{FCF370A2-FD03-41F1-920F-F7E3E93E0586}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{11E80EA9-0701-41EF-AC4A-2D7A5417313D}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseScripts\common\[00][dbo].[uspProcessApplicationStatusSeedAplicationDataTables].sql = DatabaseScripts\common\[00][dbo].[uspProcessApplicationStatusSeedAplicationDataTables].sql
+		DatabaseScripts\common\[01][dbo].[uspProcessApplicationSubStatusSeedAplicationDataTables].sql = DatabaseScripts\common\[01][dbo].[uspProcessApplicationSubStatusSeedAplicationDataTables].sql
+		DatabaseScripts\common\[02][dbo].[uspProcessGrantsSeedAplicationDataTables].sql = DatabaseScripts\common\[02][dbo].[uspProcessGrantsSeedAplicationDataTables].sql
+		DatabaseScripts\common\[03][dbo].[uspProcessParentApplicationSubStatusSeedAplicationDataTables].sql = DatabaseScripts\common\[03][dbo].[uspProcessParentApplicationSubStatusSeedAplicationDataTables].sql
+		DatabaseScripts\common\[04][dbo].[uspProcessParentVoucherSubStatusSeedAplicationDataTables].sql = DatabaseScripts\common\[04][dbo].[uspProcessParentVoucherSubStatusSeedAplicationDataTables].sql
+		DatabaseScripts\common\[05][dbo].[uspProcessTechTypesSeedAplicationDataTables].sql = DatabaseScripts\common\[05][dbo].[uspProcessTechTypesSeedAplicationDataTables].sql
+		DatabaseScripts\common\[06][dbo].[uspProcessVoucherStatusSeedAplicationDataTables].sql = DatabaseScripts\common\[06][dbo].[uspProcessVoucherStatusSeedAplicationDataTables].sql
+		DatabaseScripts\common\[07][dbo].[uspProcessVoucherSubStatusSeedAplicationDataTables].sql = DatabaseScripts\common\[07][dbo].[uspProcessVoucherSubStatusSeedAplicationDataTables].sql
+		DatabaseScripts\common\[08][dbo].[vw_Dashboard_Application_Only].sql = DatabaseScripts\common\[08][dbo].[vw_Dashboard_Application_Only].sql
+		DatabaseScripts\common\[12][dbo].[uspProcessSurveyOptionsSeedApplicationDataTables].sql = DatabaseScripts\common\[12][dbo].[uspProcessSurveyOptionsSeedApplicationDataTables].sql
+		DatabaseScripts\common\[13][dbo].[vw_External_Dashboard_Applications].sql = DatabaseScripts\common\[13][dbo].[vw_External_Dashboard_Applications].sql
+		DatabaseScripts\common\[14][dbo].[uspGetPreSortedExternalDashboard].sql = DatabaseScripts\common\[14][dbo].[uspGetPreSortedExternalDashboard].sql
+		DatabaseScripts\common\[98]RemoveOldViews.sql = DatabaseScripts\common\[98]RemoveOldViews.sql
+		DatabaseScripts\common\[99]SeedAplicationDataTables.sql = DatabaseScripts\common\[99]SeedAplicationDataTables.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FBC3B751-D745-4740-89AA-894ED3B0E0D7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{75C74F82-AB7A-4549-A82F-590CFB2861C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.Applications.Providers.DataAccess.UnitTests", "tests\Providers\Ofgem.API.Applications.Providers.DataAccess.UnitTests\Ofgem.API.Applications.Providers.DataAccess.UnitTests.csproj", "{7AB14E0B-D9F6-4F8B-9AD7-39C9A372949F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB1A49C8-3944-41ED-9FEF-12F6B8AD77AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1A49C8-3944-41ED-9FEF-12F6B8AD77AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB1A49C8-3944-41ED-9FEF-12F6B8AD77AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1A49C8-3944-41ED-9FEF-12F6B8AD77AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C800FE6A-103C-40C9-AE5B-94C5A51C4201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C800FE6A-103C-40C9-AE5B-94C5A51C4201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C800FE6A-103C-40C9-AE5B-94C5A51C4201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C800FE6A-103C-40C9-AE5B-94C5A51C4201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4FDE0A-FAF4-4E10-A390-007D7295104A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4FDE0A-FAF4-4E10-A390-007D7295104A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4FDE0A-FAF4-4E10-A390-007D7295104A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4FDE0A-FAF4-4E10-A390-007D7295104A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875CC75D-718B-42FB-A330-8B839AF1CD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875CC75D-718B-42FB-A330-8B839AF1CD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875CC75D-718B-42FB-A330-8B839AF1CD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875CC75D-718B-42FB-A330-8B839AF1CD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731F8A04-58AA-4E89-975D-B4114F878A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731F8A04-58AA-4E89-975D-B4114F878A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731F8A04-58AA-4E89-975D-B4114F878A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731F8A04-58AA-4E89-975D-B4114F878A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3043A1-A90C-429E-A494-7F66BA74FB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3043A1-A90C-429E-A494-7F66BA74FB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3043A1-A90C-429E-A494-7F66BA74FB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3043A1-A90C-429E-A494-7F66BA74FB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7618EE9-4099-4C31-B6FF-DBCADD808E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7618EE9-4099-4C31-B6FF-DBCADD808E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7618EE9-4099-4C31-B6FF-DBCADD808E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7618EE9-4099-4C31-B6FF-DBCADD808E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6581A792-AB08-408C-9B8B-9622716E8C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6581A792-AB08-408C-9B8B-9622716E8C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6581A792-AB08-408C-9B8B-9622716E8C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6581A792-AB08-408C-9B8B-9622716E8C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB14E0B-D9F6-4F8B-9AD7-39C9A372949F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB14E0B-D9F6-4F8B-9AD7-39C9A372949F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB14E0B-D9F6-4F8B-9AD7-39C9A372949F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB14E0B-D9F6-4F8B-9AD7-39C9A372949F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF1A93D2-745A-4AED-AD9F-FC007042F019} = {33C948A8-4D74-4AAA-A80A-01ACB9AB2DD1}
+		{2CD70AF4-0660-4BAB-B878-49F3B7447507} = {33C948A8-4D74-4AAA-A80A-01ACB9AB2DD1}
+		{44D57F21-B197-4E93-89C8-BF014611F691} = {33C948A8-4D74-4AAA-A80A-01ACB9AB2DD1}
+		{42CE93F1-E9DB-4DA8-B07A-21E0A8F7F012} = {33C948A8-4D74-4AAA-A80A-01ACB9AB2DD1}
+		{2A859C44-6467-4515-AF55-1CD657951706} = {8D0B200A-0629-42F4-BCB1-74B35BCABA19}
+		{54F1FF41-56CC-46AF-93F5-BCA89FEFDBC4} = {8D0B200A-0629-42F4-BCB1-74B35BCABA19}
+		{CB1A49C8-3944-41ED-9FEF-12F6B8AD77AA} = {AF1A93D2-745A-4AED-AD9F-FC007042F019}
+		{C800FE6A-103C-40C9-AE5B-94C5A51C4201} = {2CD70AF4-0660-4BAB-B878-49F3B7447507}
+		{DC4FDE0A-FAF4-4E10-A390-007D7295104A} = {42CE93F1-E9DB-4DA8-B07A-21E0A8F7F012}
+		{875CC75D-718B-42FB-A330-8B839AF1CD0E} = {44D57F21-B197-4E93-89C8-BF014611F691}
+		{731F8A04-58AA-4E89-975D-B4114F878A51} = {42CE93F1-E9DB-4DA8-B07A-21E0A8F7F012}
+		{8B3043A1-A90C-429E-A494-7F66BA74FB40} = {54F1FF41-56CC-46AF-93F5-BCA89FEFDBC4}
+		{F7618EE9-4099-4C31-B6FF-DBCADD808E99} = {54F1FF41-56CC-46AF-93F5-BCA89FEFDBC4}
+		{6581A792-AB08-408C-9B8B-9622716E8C0F} = {2A859C44-6467-4515-AF55-1CD657951706}
+		{11E80EA9-0701-41EF-AC4A-2D7A5417313D} = {FCF370A2-FD03-41F1-920F-F7E3E93E0586}
+		{75C74F82-AB7A-4549-A82F-590CFB2861C9} = {8D0B200A-0629-42F4-BCB1-74B35BCABA19}
+		{7AB14E0B-D9F6-4F8B-9AD7-39C9A372949F} = {75C74F82-AB7A-4549-A82F-590CFB2861C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB3A2CF2-DA87-4997-A0EF-8C38AF3A74B8}
+	EndGlobalSection
+EndGlobal

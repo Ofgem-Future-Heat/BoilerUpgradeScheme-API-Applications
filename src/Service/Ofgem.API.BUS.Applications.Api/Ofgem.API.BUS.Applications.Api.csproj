@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Ofgem.Lib.BUS.APIClient" Version="0.0.11" />
+    <PackageReference Include="Ofgem.Lib.BUS.AuditLogging" Version="0.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ofgem.API.BUS.Applications.Core\Ofgem.API.BUS.Applications.Core.csproj" />
+  </ItemGroup>
+
+</Project>
